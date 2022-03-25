@@ -55,6 +55,7 @@ header img {
 }
 
 header p {
+    padding-left: 200px;
     padding-top: 24px;
     font-size: 60px;
 
@@ -129,6 +130,10 @@ iframe {
     width: 33%;
 }
 
+.c60 {
+    width: 60%
+}
+
 footer {
     display: flex;
     /*    list-style: none*/
@@ -136,9 +141,23 @@ footer {
 
 .tile-border {
     border: 1px solid #2A2F39;
-    border-radius: 20px;
+    border-radius: 40px;
+    width: 40%
+    
+    
 }
 
+button {
+        display: inline-block;
+    background: #E6EBF3;
+        border-radius: 100px;
+    
+}
+
+button:hover {
+    color: #fff;
+    background: #32589D;
+}
 footer dev {
     display: flex;
     justify-content: space-between;
